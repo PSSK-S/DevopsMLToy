@@ -9,7 +9,8 @@ def main():
         "This is the worst project I’ve ever worked on.",
         "The weather is okay but could be better.",
         "I'm excited to build DevOpsML!",
-        "Ugh… I hate waiting for slow CI/CD pipelines."]
+        "Ugh… I hate waiting for slow CI/CD pipelines.",
+        "yo pretty "]
     
     nlp = pipeline("text-classification", model='distilbert-base-uncased-finetuned-sst-2-english')
 
@@ -17,7 +18,7 @@ def main():
         result = nlp(text)
         print(result)
 
-#main()        
+main()        
 
 
 def main2():    

@@ -25,3 +25,9 @@ Desktop.ini
 .venv/
 # macOS
 .DS_Store
+
+venv/
+
+venv
+
+.venv
