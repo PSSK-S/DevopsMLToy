@@ -23,7 +23,7 @@ def main():
 def main2():    
     qa = pipeline("question-answering", model='distilbert-base-uncased-distilled-squad') 
     context = "I am from Amalapuram, a city in the Indian state of Andhra Pradesh. It is known for its rich cultural heritage and historical significance " \
-    "as well as its beautiful landscapes and vibrant festivals. My favorite food is Chikkudukaya curry which my mom makes."
+    "as well as its beautiful landscapes and vibrant festivals."
 
     question = ["What is the state mentioned in the context?",
                 "What is the favorite food mentioned in the context?",
