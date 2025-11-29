@@ -1,0 +1,27 @@
+#python
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+# Jupyter Notebook
+.ipynb_checkpoints
+# VS Code
+.vscode/
+# PyCharm
+.idea/
+
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+.venv/
+# macOS
+.DS_Store
