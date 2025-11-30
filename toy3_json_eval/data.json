@@ -1,0 +1,9 @@
+[
+    {"text":"Love this product!", "label":"postive"},
+    {"text": "This is not a good one", "label": "negative"},
+    {"text":"Prety good overall", "label": "positive"},
+    {"text":"totally disspointed, hate it", "label": "negative"},
+    {"text":"not bad but could be lot better", "label":"negative"}
+
+]
+
