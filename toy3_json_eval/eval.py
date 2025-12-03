@@ -33,5 +33,23 @@ def main():
     report_path = Path(__file__).parent / "report.json" 
 
     #2 Load data
-    data = load_data(data_path)
+    data = load_data(str(data_path))
+
+    texts = [item['text'] for item in data]
+    true_label = [item['label'] for item in data]
+
+    #Predict labels
+    pred_label = []
+    for text in texts:
+        pred = predict_label(text)
+        pred_label.append(pred)
+
+    #4 Calculate accuracy
+    acc = accuracy(pred_label,true_label)    
+
+    #5 print resulrs
+    print(f"Number of samples: {len(data)}")
+    print(f"Accuracy: {acc:.4f}")
+
+    
     
