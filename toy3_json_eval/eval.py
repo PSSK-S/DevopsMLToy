@@ -51,5 +51,19 @@ def main():
     print(f"Number of samples: {len(data)}")
     print(f"Accuracy: {acc:.4f}")
 
-    
+    #6 Json report
+    report = {
+        "num_samples": len(data),
+        "accuracy": acc,
+        "tool": "toy3_json_eval",
+        "true_labels": true_label,
+        "predict_labels": pred_label
+
+    }
+
+    with open(report_path, 'w') as f:
+        json.dump(report, f, indent=4)
+    print(f"report saaved to {report_path}")
+
+main()         
     

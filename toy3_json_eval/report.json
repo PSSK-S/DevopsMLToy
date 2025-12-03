@@ -1,0 +1,19 @@
+{
+    "num_samples": 5,
+    "accuracy": 0.8,
+    "tool": "toy3_json_eval",
+    "true_labels": [
+        "postive",
+        "negative",
+        "positive",
+        "negative",
+        "negative"
+    ],
+    "predict_labels": [
+        "positive",
+        "negative",
+        "positive",
+        "negative",
+        "negative"
+    ]
+}
